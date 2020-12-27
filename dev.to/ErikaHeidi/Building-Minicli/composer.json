@@ -1,0 +1,19 @@
+{
+    "name": "rasyidcode/building-minicli",
+    "description": "Building Minicli Tutorial",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jamil Al Rasyid",
+            "email": "rasyidcode7@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Minicli\\": "lib/",
+            "App\\": "app/"
+        }
+    }
+}
